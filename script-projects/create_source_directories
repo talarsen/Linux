@@ -1,0 +1,18 @@
+#! /bin/bash
+# Create the source directory if it doesn't exist
+mkdir -p ~/source_directory
+
+# Create the first file with dummy text
+cat <<EOL > ~/source_directory/example1.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+EOL
+
+# Create the second file with dummy text
+cat <<EOL > ~/source_directory/example2.txt
+Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. 
+Pellentesque in ipsum id orci porta dapibus. 
+Curabitur aliquet quam id dui posuere blandit.
+EOL
+
